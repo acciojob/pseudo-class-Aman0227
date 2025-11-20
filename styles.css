@@ -4,12 +4,12 @@
             font-size: 24px;
         }
 
-        .container::before {
+        #container::before {
             content: "Before Element";
             color: red;
         }
 
-        .container::after {
+        #container::after {
             content: "After Element";
-            color: blue;
+            color: red;
         }
